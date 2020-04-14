@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Papers-Light Demo</title>
+    <link rel="stylesheet" href="style/bootstrap.css">
+</head>
+<body>
+    <div class="container" id="pl-all">
+        <div id="pl-toolbar"></div>
+        <div id="pl-papers"></div>
+
+        <!-- Login dialog -->
+        <div class="modal hide fade" id="pl-login" tabindex="-1" role="dialog" aria-labelledby="pl-login-modal" aria-hidden="true">
+            <div class="modal-header">
+                <!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button> -->
+                <h4 class="modal-title" id="pl-login-modal">Administrator Login</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal">
+                    <div class="control-group">
+                        <label class="control-label" for="pl-login-username">Username</label>
+                        <div class="controls">
+                            <input type="text" id="pl-login-username" placeholder="Username">
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label" for="pl-login-password">Password</label>
+                        <div class="controls">
+                            <input type="password" id="pl-login-password" placeholder="Password">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button> -->
+                <button type="button" class="btn btn-primary" id="pl-login-button">Login</button>
+            </div>
+        </div>
+
+        <!-- Edit paper dialog -->
+        <div class="modal hide fade" id="pl-edit-paper" tabindex="-1" role="dialog" aria-labelledby="pl-edit-paper-modal" aria-hidden="true">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="pl-edit-paper-modal"></h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" id="pl-edit-paper-form">
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary" id="pl-edit-paper-button">Submit</button>
+            </div>
+        </div>
+
+        <!-- Remove paper dialog -->
+        <div class="modal hide fade" id="pl-remove-paper" tabindex="-1" role="dialog" aria-labelledby="pl-remove-paper-modal" aria-hidden="true">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="pl-remove-paper-modal">Remove Paper</h4>
+            </div>
+            <div class="modal-body">
+                <p id="pl-remove-paper-info"></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-danger" id="pl-remove-paper-button">Remove</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script/jquery.js"></script>
+    <script src="script/bootstrap.min.js"></script>
+    <script src="script/admin.js"></script>
+</body>
+</html>

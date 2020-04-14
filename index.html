@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+
+<!-- saved from url=(0060)http://twitter.github.com/bootstrap/javascript.html#popovers -->
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>饶老师工作室</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Multimedia Laboratory">
+    <meta name="author" content="Multimedia Laboratory">
+
+    <meta name="keywords"
+        content="Multimedia Laboratory, Face recognition, Face alignment, Face detection and tracking, Human detection, Video Surveillance, Video Processing, Image search and recognition, Machine learning" />
+
+    <!-- Le styles -->
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="./css/custom.css" rel="stylesheet">
+    <link href="./css/docs.css" rel="stylesheet">
+    <link href="./prettify.css" rel="stylesheet">
+    <link href="./css/mmlab.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" type="image/ico" href="./favicon.ico" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144"
+        href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114"
+        href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72"
+        href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed"
+        href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-57-precomposed.png">
+
+    <!-- Google Analytics -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-47172772-1', 'cuhk.edu.hk');
+        ga('send', 'pageview');
+    </script>
+
+
+    <!-- Google +1 button tag. -->
+    <script type="text/javascript">
+        (function () {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://apis.google.com/js/plusone.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+
+    <script>
+        (function () {
+            var cx = '007672424892764139263:xohuncfujbq';
+            var gcse = document.createElement('script');
+            gcse.type = 'text/javascript';
+            gcse.async = true;
+            gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                '//www.google.com/cse/cse.js?cx=' + cx;
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(gcse, s);
+        })();
+    </script>
+
+    <!-- Google plus follow -->
+    <script type="text/javascript">
+        (function () {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://apis.google.com/js/platform.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+</head>
+
+
+<!-- Navigation ================================================== -->
+
+<body data-spy="scroll" data-target="#navbar" data-twttr-rendered="true">
+
+    <div id="navbar" class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="brand" href="index.html#">MMLAB</a>
+                <div class="nav-collapse">
+                    <ul class="nav">
+                        <li class="active">
+                            <a href="./index.html">
+                                <strong>主页</strong>
+                            </a>
+                        </li>
+                        <!-- <li>
+                            <a href="./people.html">
+                                <strong>培养的学生</strong>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./join_us.html">
+                                <strong>加入我们</strong>
+                            </a>
+                        </li> -->
+                        <li>
+                            <a data-toggle="modal" href="./index.html#contactModal">
+                                <strong>联系我</strong>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container">
+        <div class="tooltip-demo">
+
+            <!-- Carousel ================================================== -->
+            <section id="carousel">
+
+
+                <div class="page-header">
+                    <div class="row">
+                        <div class="span2">
+                            <img src="./images/logo_raolaoshi.jpg" width="100" alt="">
+                        </div>
+
+                        <div class="span7">
+                            <h1> 爱是教育的灵魂
+                                <br />
+                                <small>饶老师工作室</small> 
+                                <br />
+                                <small><a href="https://www.weibo.com/p/1005057379971165"> 微博 </a> /</small> 
+                                <small><a href="https://user.qzone.qq.com/1157120483"> QQ空间 </a></small> 
+                            </h1>
+                        </div>
+
+                        <div class="span3">
+                            <!-- Place this tag where you want the widget to render. -->
+                            <div class="g-follow" data-annotation="bubble" data-height="24"
+                                data-href="//plus.google.com/110990669576881759187" data-rel="author"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="span12">
+                        <!--Carousel image size 940 x 500 -->
+                        <div id="myCarousel" class="carousel slide">
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="active item">
+                                    <img src="./images/cover_carousel/run.jpg" alt="">
+                                    <div class="carousel-caption">
+                                        <h4>学生风采</h4>
+                                        <p>
+                                            让我获胜，如果我不能获胜，请让我勇敢去尝试！
+                                            <br>
+                                            奋勇争先，你追我赶不甘落后;意气风发，虎跃龙腾朝气蓬勃
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="./images/cover_carousel/tree.jpg" alt="">
+                                    <div class="carousel-caption">
+                                        <h4>散原古樟</h4>
+                                        <p>干挺樛枝劲四张，葱翠繁茂历沧桑；
+                                            芳樟吾宁不恭敬，痴心不改护童欢。
+                                            <br>
+                                            教师，看似很平凡的职业，尤如古障树的陪伴，一旦拥有了责任，就让这一生变得无怨无悔……老师的陪伴是温暖人心的美丽风景，是充满希望和阳光的最坚强的力量！
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="./images/cover_carousel/game.jpg" alt="">
+                                    <div class="carousel-caption">
+                                        <h4>运动会</h4>
+                                        <p>顽强的拼搏，胜利的骄傲！
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                            <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+                        </div>
+
+
+                        <!-- Facts ================================================== -->
+                        <div class="page-header">
+                            <h3>工作室速览
+                                <br>
+                                <small></small>
+                            </h3>
+                            <br>
+                            <h4 style="font-weight:normal;">
+                                饶文礼同志系散原中学校长助理兼初三年级部主任，一直坚守在初三教育教学及管理一线。从教三十年，注重学生的内心成长，
+                                不以分数高低论学生，深受学生喜爱。不仅传授知识，更重要的是遵循学生生命成长的规律，教会他们思考与独立，做爱自己爱生活爱他人爱社会负责任有担当的幸福的人。
+                            </h4>
+                            <br>
+                        </div>
+                        <!-- <ul>
+                            <li>饶老师一共培养出了超过十多名清华北大的优秀毕业生。重点大学超逾几百人。
+                            </li>
+                            <li>获奖记录:
+                                <ul>
+                                    <li>1</li>
+                                    <li>2</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <hr class="bs-docs-separator"> -->
+
+                    </div>
+                    
+                    <!-- Sidebar ================================================== -->
+                    <!-- <div class="span3">
+
+                        <h2>最近新闻</h2>
+
+                        <p>
+                            <span class="label label-info">05/2020</span>
+                            <strong> 中考最近即将来临 </strong>
+                            <br />
+                            愿你们都取得好的成绩
+                        </p>
+
+                        <p>
+                            <small>
+                                <a href="all_news.html"> 全部新闻 </a>
+                            </small>
+                        </p> 
+
+
+                        <hr class="bs-docs-separator">
+
+                        <h2>Quick Links</h2>
+
+                        <p>
+                            <a href="demos.html"> Demos </a>
+                        </p>
+                    </div> -->
+
+                </div>
+
+            </section>
+
+
+
+
+
+            <!-- Footer ================================================== -->
+            <!-- <footer class="footer">
+                <div class="container"> -->
+                    <p class="pull-right">&copy 2013-2020
+                        <a href=>饶老师工作室</a>
+                        <br />
+                        <a data-toggle="modal" href="index.html#creditModal">Site Credits</a>
+                    </p>
+
+
+                    <!-- Modal -->
+                    <div id="creditModal" class="modal hide fade" tabindex="-1" role="dialog"
+                        aria-labelledby="creditModalLabel" aria-hidden="true" style="display: none;">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h3 id="creditModalLabel">Site Credits</h3>
+                        </div>
+                        <div class="modal-body">
+                            <p>This site was built based on the website of 
+                                <a href="http://mmlab.ie.cuhk.edu.hk/">MMLab</a></p>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                    <!-- Modal -->
+                    <div id="contactModal" class="modal hide fade" tabindex="-1" role="dialog"
+                        aria-labelledby="contactModalLabel" aria-hidden="true" style="display: none;">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h3 id="contactModalLabel">联系我</h3>
+                        </div>
+                        <div class="modal-body">
+                            <address>
+                                饶老师工作室
+                                <br /> 凤凰山路67号
+                                <br /> 修水县，江西省
+                            </address>
+
+                            <p>
+                                <i class="icon-play-circle"></i> 推荐您通过微博，QQ联系我
+                            </p>
+
+                            <p>
+                                <br />
+                                <small>
+                                    <a href="https://map.baidu.com/search/%E4%BF%AE%E6%B0%B4%E5%8E%BF%E6%95%A3%E5%8E%9F%E4%B8%AD%E5%AD%A6/@12753197.234354185,3357887.94857,15.66z?querytype=s&da_src=shareurl&wd=%E4%BF%AE%E6%B0%B4%E5%8E%BF%E6%95%A3%E5%8E%9F%E4%B8%AD%E5%AD%A6&c=2912&src=0&pn=0&sug=0&l=12&b=(12652778.55,2499456.71;12766634.55,2558464.71)&from=webmap&biz_forward=%7B%22scaler%22:1,%22styles%22:%22pl%22%7D&device_ratio=1">
+                                        到访我，百度地图</a>
+                                    <br />
+                                </small>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                <!-- </div>
+            </footer> -->
+
+        </div>
+        <!-- /tooltip-demo -->
+    </div>
+    <!-- /container -->
+
+
+
+    <!-- Le javascript
+        ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!--<script type="text/javascript" src="./js/widgets.js"></script>-->
+    <script src="./js/jquery.js"></script>
+    <!--<script src="./js/prettify.js"></script>-->
+    <script src="./js/bootstrap-transition.js"></script>
+    <script src="./js/bootstrap-alert.js"></script>
+    <!--<script src="./js/bootstrap-dropdown.js"></script>-->
+    <script src="./js/bootstrap-scrollspy.js"></script>
+    <script src="./js/bootstrap-tab.js"></script>
+    <script src="./js/bootstrap-tooltip.js"></script>
+    <!--<script src="./js/bootstrap-popover.js"></script>-->
+    <!--<script src="./js/bootstrap-button.js"></script>-->
+    <!--<script src="./js/bootstrap-collapse.js"></script>-->
+    <script src="./js/bootstrap-carousel.js"></script>
+    <!--<script src="./js/bootstrap-typeahead.js"></script>-->
+    <!--<script src="./js/bootstrap-affix.js"></script>-->
+    <!--<script src="./js/application.js"></script>-->
+    <script src="./js/bootstrap.min.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>

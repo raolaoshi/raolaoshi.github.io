@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Papers-Light Demo</title>
+    <link rel="stylesheet" href="style/bootstrap.css">
+</head>
+<body>
+    <div class="container" id="pl-all">
+        <div id="pl-papers"></div>
+
+        <!-- Export dialog -->
+        <div class="modal hide fade" id="pl-export-paper" tabindex="-1" role="dialog" aria-labelledby="pl-export-paper-modal" aria-hidden="true">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="pl-export-paper-modal">Export BibTeX</h4>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script/jquery.js"></script>
+    <script src="script/bootstrap.min.js"></script>
+    <script src="script/user.js"></script>
+</body>
+</html>

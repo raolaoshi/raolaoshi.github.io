@@ -1,0 +1,1347 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)http://twitter.github.com/bootstrap/javascript.html#popovers -->
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Multimedia Laboratory</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Multimedia Laboratory">
+    <meta name="author" content="Multimedia Laboratory">
+
+    <meta name="keywords"
+        content="Multimedia Laboratory, Face recognition, Face alignment, Face detection and tracking, Human detection, Video Surveillance, Video Processing, Image search and recognition, Machine learning" />
+
+    <!-- Le styles -->
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="./css/docs.css" rel="stylesheet">
+    <link href="./prettify.css" rel="stylesheet">
+    <link href="./css/mmlab.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" type="image/ico" href="./favicon.ico" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144"
+        href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114"
+        href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72"
+        href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed"
+        href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-57-precomposed.png">
+
+    <!--<link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">-->
+
+    <!--<script src="http://vjs.zencdn.net/c/video.js"></script>-->
+
+    <!-- Google Analytics -->
+    <!-- <script type="text/javascript">
+            
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-22940424-1']);
+            _gaq.push(['_trackPageview']);
+            
+            (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+            
+        </script> -->
+</head>
+
+
+
+<body data-spy="scroll" data-target="#navbar" data-twttr-rendered="true">
+
+    <div id="navbar" class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="brand" href="index.html#">MMLAB</a>
+                <div class="nav-collapse">
+                    <ul class="nav">
+                        <li>
+                            <a href="./index.html">
+                                <strong>Home</strong>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./people.html">
+                                <strong>People</strong>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./publications.html">
+                                <strong>Publications</strong>
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a href="./projects.html">
+                                <strong>Projects</strong>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./datasets.html">
+                                <strong>Datasets</strong>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/open-mmlab">
+                                <strong>Open Source</strong>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./join_us.html">
+                                <strong>Join Us</strong>
+                            </a>
+                        </li>
+                        <li>
+                            <a data-toggle="modal" href="./index.html#contactModal">
+                                <strong>Contact Us</strong>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Subhead
+        ================================================== -->
+    <header class="jumbotron subhead" id="overview">
+        <div class="container">
+            <h1>Multimedia Laboratory</h1>
+            <p class="lead">Selected Projects</p>
+        </div>
+    </header>
+
+
+    <div class="container">
+        <div class="tooltip-demo">
+
+
+            <!-- Description
+    ================================================== -->
+            <section>
+                <div class="row">
+
+                    <div class="span12">
+
+                        <p>
+                            The explosive growth of multimedia
+                            information over the Internet and sensors network makes it an urgent task to develop
+                            automatic systems for intelligent processing of the vast
+                            amount of multimedia and multisource data. Toward this goal, our research
+                            focuses mostly on intelligent processing of image, video, and computer graphics.
+                            Representative research projects include automatic face, person, detection and segmentation,
+                            video understanding, low-level vision, architecture and learning.
+                        </p>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Projects
+    ================================================== -->
+            <section>
+                <div class="row">
+
+                    <div class="span12">
+
+                        <div class='page-header'>
+                            <h2> Face <small></small></h2>
+                        </div>
+
+			                <div class="row-fluid">
+			                    <div class="span3">
+			                        <div class="thumbnail">
+			                            <img src="./images/projects/face_detection_alignment_manipulation/WIDER FACE A Face Detection Benchmark.PNG"
+			                                alt="">
+			                        </div>
+			                    </div>
+			                    <div class="span9">
+			                        <p>
+			                            <strong>WIDER FACE: A Face Detection Benchmark</strong> <br />
+			                            Shuo Yang, Ping Luo, Chen Change Loy, and Xiaoou Tang, IEEE Conference on Computer Vision
+			                            and Pattern Recognition (<strong>CVPR</strong>), 2016 <br /> <br />
+			                            Face detection is one of the most studied topics in the computer vision community. Much of
+			                            the progresses have been made by the availability of face detection benchmark datasets. We
+			                            show that there is a gap between current face detection performance and the real world
+			                            requirements. To facilitate future face detection research, we introduce the WIDER FACE
+			                            dataset, which is 10 times larger than existing datasets. The dataset contains rich
+			                            annotations, including occlusions, poses, event categories, and face bounding boxes. Faces
+			                            in the proposed dataset are extremely challenging due to large variations in scale, pose and
+			                            occlusion, as shown in Fig.. Furthermore, we show that WIDER FACE dataset is an effective
+			                            training source for face detection. We benchmark several representative detection systems,
+			                            providing an overview of state-of-the-art performance and propose a solution to deal with
+			                            large scale variation. Finally, we discuss common failure cases that worth to be further
+			                            investigated. <br />
+			                            <a
+			                                href="http://openaccess.thecvf.com/content_cvpr_2016/papers/Yang_WIDER_FACE_A_CVPR_2016_paper.pdf"><span
+			                                    class="label_download">PDF</span></a>
+			                        </p>
+			                    </div>
+			                </div>
+			                <p></p>
+			                <div class="row-fluid">
+			                    <div class="span3">
+			                        <div class="thumbnail">
+			                            <img src="./images/projects/face_detection_alignment_manipulation/Facial Landmark Detection by Deep Multi-task Learning .png"
+			                                alt="">
+			                        </div>
+			                    </div>
+			                    <div class="span9">
+			                        <p>
+			                            <strong>Facial Landmark Detection by Deep Multi-task Learning</strong> <br />
+			                            Zhanpeng Zhang, Ping Luo, Chen Change Loy, and Xiaoou Tang, European Conference on Computer
+			                            Vision (<strong>ECCV</strong>), 2014 <br /> <br />
+			                            Facial landmark detection has long been impeded by the problems of occlusion and pose
+			                            variation. Instead of treating the detection task as a single and independent problem, we
+			                            investigate the possibility of improving detection robustness through multi-task learning.
+			                            Specifically, we optimize facial landmark detection together with heterogeneous but subtly
+			                            correlated tasks. We formulate a novel tasks-constrained deep model, with task-wise early
+			                            stopping to facilitate learning convergence. Extensive evaluations show that the proposed
+			                            task-constrained learning outperforms existing methods and reduces model complexity
+			                            drastically.<br />
+			                            <a href="https://link.springer.com/content/pdf/10.1007%2F978-3-319-10599-4_7.pdf"><span
+			                                    class="label_download">PDF</span></a>
+			                        </p>
+			                    </div>
+			                </div>
+			                <p></p>
+			                <div class="row-fluid">
+			                    <div class="span3">
+			                        <div class="thumbnail">
+			                            <img src="./images/projects/face_detection_alignment_manipulation/ReenactGAN Learning to Reenact Faces via Boundary Transfer.PNG"
+			                                alt="">
+			                        </div>
+			                    </div>
+			                    <div class="span9">
+			                        <p>
+			                            <strong>ReenactGAN: Learning to Reenact Faces via Boundary Transfer</strong> <br />
+			                            Wayne Wu, Yunxuan Zhang, Cheng Li, Chen Qian, and Chen Change Loy, European Conference on
+			                            Computer Vision (<strong>ECCV</strong>), 2018 <br /> <br />
+			                            We present a novel learning-based framework for face reenactment. The proposed method, known
+			                            as ReenactGAN, is capable of transferring facial movements and expressions from an arbitrary
+			                            person’s monocular video input to a target person’s video. Instead of performing a direct
+			                            transfer in the pixel space, which could result in structural artifacts, we first map the
+			                            source face onto a boundary latent space. A transformer is subsequently used to adapt the
+			                            source face’s boundary to the target’s boundary. Finally, a target-specific decoder is used
+			                            to generate the reenacted target face. Thanks to the effective and reliable boundary-based
+			                            transfer, our method can perform photo-realistic face reenactment. In addition, ReenactGAN
+			                            is appealing in that the whole reenactment process is purely feed-forward, and thus the
+			                            reenactment process can run in real-time (30 FPS on one GTX 1080 GPU). Dataset and model are
+			                            publicly available on our project page† .<br />
+			                            <a
+			                                href="http://openaccess.thecvf.com/content_ECCV_2018/papers/Wayne_Wu_Learning_to_Reenact_ECCV_2018_paper.pdf"><span
+			                                    class="label_download">PDF</span></a>
+			                        </p>
+			                    </div>
+			                </div>
+			                <p></p>
+
+
+						    <div class="row-fluid">
+			                    <div class="span3">
+			                        <div class="thumbnail">
+			                            <img src="./images/projects/face_recognition_attributes_clustering/Deep Learning Face Representation from Predicting 10,000 Classes.PNG" alt="">
+			                        </div>
+			                    </div>
+			                    <div class="span9">
+			                        <p>
+			                            <strong>Deep Learning Face Representation from Predicting 10,000 Classes</strong> <br />
+			                            Yi Sun, Yuheng Chen, Xiaogang Wang, and Xiaoou Tang, Advances in Neural Information Processing Systems 27 (<strong>NIPS</strong>), 2014 <br /> <br />
+			                            This paper proposes to learn a set of high-level feature representations through deep learning, referred to as Deep hidden IDentity features (DeepID), for face verification. We argue that DeepID can be effectively learned through challenging multi-class face identification tasks, whilst they can be generalized to other tasks (such as verification) and new identities unseen in the training set. Moreover, the generalization capability of DeepID increases as more face classes are to be predicted at training. DeepID features are taken from the last hidden layer neuron activations of deep convolutional networks (ConvNets). When learned as classifiers to recognize about 10, 000 face identities in the training set and configured to keep reducing the neuron numbers along the feature extraction hierarchy, these deep ConvNets gradually form compact identity-related features in the top layers with only a small number of hidden neurons. The proposed features are extracted from various face regions to form complementary and over-complete representations. Any state-of-the-art classifiers can be learned based on these high-level representations for face verification. 97:45% verification accuracy on LFW is achieved with only weakly aligned faces. <br />
+			                            <a href="https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Sun_Deep_Learning_Face_2014_CVPR_paper.pdf"><span
+			                                    class="label_download">PDF</span></a>
+			                        </p>
+			                    </div>
+			                </div>
+			                <p></p>
+			                <div class="row-fluid">
+			                    <div class="span3">
+			                        <div class="thumbnail">
+			                            <img src="./images/projects/face_recognition_attributes_clustering/Deep Learning Face Attributes in the Wild.png" alt="">
+			                        </div>
+			                    </div>
+			                    <div class="span9">
+			                        <p>
+			                            <strong>Deep Learning Face Attributes in the Wild </strong> <br />
+			                            Ziwei Liu, Ping Luo, Xiaogang Wang, and Xiaoou Tang, IEEE International Conference on Computer Vision (<strong>ICCV</strong>), 2015 <br /> <br />
+			                            Relationships among objects play a crucial role in image understanding. Despite the great success of deep learning techniques in recognizing individual objects, reasoning about the relationships among objects remains a challenging task. Previous methods often treat this as a classification problem, considering each type of relationship (e.g. “ride”) or each distinct visual phrase (e.g. “personride-horse”) as a category. Such approaches are faced with significant difficulties caused by the high diversity of visual appearance for each kind of relationships or the large number of distinct visual phrases. We propose an integrated framework to tackle this problem. At the heart of this framework is the Deep Relational Network, a novel formulation.designed specifically for exploiting the statistical dependencies between objects and their relationships. On two large data sets, the proposed method achieves substantial improvement over state-of-the-art.<br />
+			                            <a href="http://openaccess.thecvf.com/content_iccv_2015/papers/Liu_Deep_Learning_Face_ICCV_2015_paper.pdf"><span
+			                                    class="label_download">PDF</span></a>
+			                        </p>
+			                    </div>
+			                </div>
+			                <p></p>
+			                <div class="row-fluid">
+			                    <div class="span3">
+			                        <div class="thumbnail">
+			                            <img src="./images/projects/face_recognition_attributes_clustering/Learning to Cluster Faces on an Affinity Graph.jpg" alt="">
+			                        </div>
+			                    </div>
+			                    <div class="span9">
+			                        <p>
+			                            <strong>Learning to Cluster Faces on an Affinity Graph</strong> <br />
+			                            Lei Yang, Xiaohang Zhan, Dapeng Chen, Junjie Yan, Chen Change Loy, and Dahua Lin, IEEE Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2019   <br /> <br />
+			                            In Proceedings of IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019 (Oral)    Face recognition sees remarkable progress in recent years, and its performance has reached a very high level. Taking it to a next level requires substantially larger data, which would involve prohibitive annotation cost. Hence, exploiting unlabeled data becomes an appealing alternative. Recent works have shown that clustering unlabeled faces is a promising approach, often leading to notable performance gains. Yet, how to effectively cluster, especially on a large-scale (i.e. million-level or above) dataset, remains an open question. A key challenge lies in the complex variations of cluster patterns, which make it difficult for conventional clustering methods to meet the needed accuracy. This work explores a novel approach, namely, learning to cluster instead of relying on hand-crafted criteria. Specifically, we propose a framework based on graph convolutional network, which combines a detection and a segmentation module to pinpoint face clusters. Experiments show that our method yields significantly more accurate face clusters, which, as a result, also lead to further performance gain in face recognition.<br />
+			                            <a href="https://arxiv.org/pdf/1904.02749.pdf"><span class="label_download">PDF</span></a>
+			                        </p>
+			                    </div>
+			                </div>
+			                <p></p>
+
+
+
+                        
+                        <div class="page-header">
+                            <h2>Person <small></small></h2>
+                        </div>
+	                        <div class="row-fluid">
+			                    <div class="span3">
+			                        <div class="thumbnail">
+			                            <img src="./images/projects/person_re-identification_fashion_attributes_crowd_analysis/Unsupervised Salience Learning for Person Re-Identification.PNG"
+			                                alt="">
+			                        </div>
+			                    </div>
+			                    <div class="span9">
+			                        <p>
+			                            <strong>Unsupervised Salience Learning for Person Re-Identification</strong> <br />
+			                            Rui Zhao, Wanli Ouyang, and Xiaogang Wang, IEEE Conference on Computer Vision and Pattern
+			                            Recognition (<strong>CVPR</strong>), 2013 <br /> <br />
+			                            Human eyes can recognize person identities based on some small salient regions. However,
+			                            such valuable salient information is often hidden when computing similarities of images with
+			                            existing approaches. Moreover, many existing approaches learn discriminative features and
+			                            handle drastic viewpoint change in a supervised way and require labeling new training data
+			                            for a different pair of camera views. In this paper, we propose a novel perspective for
+			                            person re-identification based on unsupervised salience learning. Distinctive features are
+			                            extracted without requiring identity labels in the training procedure. First, we apply
+			                            adjacency constrained patch matching to build dense correspondence between image pairs,
+			                            which shows effectiveness in handling misalignment caused by large viewpoint and pose
+			                            variations. Second, we learn human salience in an unsupervised manner. To improve the
+			                            performance of person re-identification, human salience is incorporated in patch matching to
+			                            find reliable and discriminative matched patches. The effectiveness of our approach is
+			                            validated on the widely used VIPeR dataset and ETHZ dataset. <br />
+			                            <a
+			                                href="https://www.cv-foundation.org/openaccess/content_cvpr_2013/papers/Zhao_Unsupervised_Salience_Learning_2013_CVPR_paper.pdf"><span
+			                                    class="label_download">PDF</span></a>
+			                        </p>
+			                    </div>
+			                </div>
+			                <p></p>
+			                <div class="row-fluid">
+			                    <div class="span3">
+			                        <div class="thumbnail">
+			                            <img src="./images/projects/person_re-identification_fashion_attributes_crowd_analysis/DeepFashion Powering Robust Clothes Recognition and Retrieval with Rich Annotations .png"
+			                                alt="">
+			                        </div>
+			                    </div>
+			                    <div class="span9">
+			                        <p>
+			                            <strong>DeepFashion: Powering Robust Clothes Recognition and Retrieval with Rich Annotations
+			                            </strong> <br />
+			                            Ziwei Liu, Ping Luo, Shi Qiu, Xiaogang Wang, and Xiaoou Tang, IEEE Conference on Computer
+			                            Vision and Pattern Recognition (<strong>CVPR</strong>), 2016 <br /> <br />
+			                            Predicting face attributes in the wild is challenging due to complex face variations. We
+			                            propose a novel deep learning framework for attribute prediction in the wild. It cascades
+			                            two CNNs, LNet and ANet, which are fine-tuned jointly with attribute tags, but pre-trained
+			                            differently. LNet is pre-trained by massive general object categories for face localization,
+			                            while ANet is pre-trained by massive face identities for attribute prediction. This
+			                            framework not only outperforms the state-of-the-art with a large margin, but also reveals
+			                            valuable facts on learning face representation. (1) It shows how the performances of face
+			                            localization (LNet) and attribute prediction (ANet) can be improved by different
+			                            pre-training strategies. (2) It reveals that although the filters of LNet are fine-tuned
+			                            only with image-level attribute tags, their response maps over entire images have strong
+			                            indication of face locations. This fact enables training LNet for face localization with
+			                            only image-level annotations, but without face bounding boxes or landmarks, which are
+			                            required by all attribute recognition works. (3) It also demonstrates that the high-level
+			                            hidden neurons of ANet automatically discover semantic concepts after pre-training with
+			                            massive face identities, and such concepts are significantly enriched after fine-tuning with
+			                            attribute tags. Each attribute can be well explained with a sparse linear combination of
+			                            these concepts.<br />
+			                            <a
+			                                href="https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Liu_DeepFashion_Powering_Robust_CVPR_2016_paper.pdf"><span
+			                                    class="label_download">PDF</span></a>
+			                        </p>
+			                    </div>
+			                </div>
+			                <p></p>
+			                <div class="row-fluid">
+			                    <div class="span3">
+			                        <div class="thumbnail">
+			                            <img src="./images/projects/person_re-identification_fashion_attributes_crowd_analysis/Deeply Learned Attributes for Crowded Scene Understanding.png"
+			                                alt="">
+			                        </div>
+			                    </div>
+			                    <div class="span9">
+			                        <p>
+			                            <strong>Deeply Learned Attributes for Crowded Scene Understanding</strong> <br />
+			                            Jing Shao, Kai Kang, Chen Change Loy, and Xiaogang Wang, IEEE Conference on Computer Vision
+			                            and Pattern Recognition (<strong>CVPR</strong>), 2015 <br /> <br />
+			                            During the last decade, the field of crowd analysis had a remarkable evolution from crowded
+			                            scene understanding, including crowd behavior analysis, crowd tracking, and crowd
+			                            segmentation. Much of this progress was sparked by the creation of crowd datasets as well as
+			                            the new and robust features and models for profiling crowd intrinsic properties. Most of the
+			                            above studies on crowd understanding are scene-specific, that is, the crowd model is learned
+			                            from a specific scene and thus poor in generalization to describe other scenes. Attributes
+			                            are particularly effective on characterizing generic properties across scenes. Indeed,
+			                            attributes can express more information in a crowd video as they can describe a video by
+			                            answering “Who is in the crowd?”, “Where is the crowd?”, and “Why is crowd here?”, but not
+			                            merely define a categorical scene label or event label to it. For instance, an
+			                            attribute-based representation might describe a crowd video as the “conductor” and “choir”
+			                            perform on the “stage” with “audience” “applauding”, in contrast to a categorical label like
+			                            “chorus”.<br />
+			                            <a
+			                                href="http://openaccess.thecvf.com/content_cvpr_2015/papers/Shao_Deeply_Learned_Attributes_2015_CVPR_paper.pdf"><span
+			                                    class="label_download">PDF</span></a>
+			                        </p>
+			                    </div>
+			                </div>
+			                <p></p>
+
+
+			                                <div class="row-fluid">
+			                    <div class="span3">
+			                        <div class="thumbnail">
+			                            <img src="./images/projects/human_pose_estimation_relationship_detection/Structured Feature Learning for Pose Estimation.PNG"
+			                                alt="">
+			                        </div>
+			                    </div>
+			                    <div class="span9">
+			                        <p>
+			                            <strong>Structured Feature Learning for Pose Estimation</strong> <br />
+			                            Xiao Chu, Wanli Ouyang, Hongsheng Li, and Xiaogang Wang, IEEE Conference on Computer Vision
+			                            and Pattern Recognition (<strong>CVPR</strong>), 2016 <br /> <br />
+			                            In this paper, we propose a structured feature learning framework to reason the correlations
+			                            among body joints at the feature level in human pose estimation. Different from existing
+			                            approaches of modeling structures on score maps or predicted labels, feature maps preserve
+			                            substantially richer descriptions of body joints. The relationships between feature maps of
+			                            joints are captured with the introduced geometrical transform kernels, which can be easily
+			                            implemented with a convolution layer. Features and their relationships are jointly learned
+			                            in an end-to-end learning system. A bi-directional tree structured model is proposed, so
+			                            that the feature channels at a body joint can well receive information from other joints.
+			                            The proposed framework improves feature learning substantially. With very simple post
+			                            processing, it reaches the best mean PCP on the LSP and FLIC datasets. Compared with the
+			                            baseline of learning features at each joint separately with ConvNet, the mean PCP has been
+			                            improved by 18% on FLIC. The code is released to the public. <br />
+			                            <a
+			                                href="http://openaccess.thecvf.com/content_cvpr_2016/papers/Chu_Structured_Feature_Learning_CVPR_2016_paper.pdf"><span
+			                                    class="label_download">PDF</span></a>
+			                        </p>
+			                    </div>
+			                </div>
+			                <p></p>
+			                <div class="row-fluid">
+			                    <div class="span3">
+			                        <div class="thumbnail">
+			                            <img src="./images/projects/human_pose_estimation_relationship_detection/Multi-task Recurrent Neural Network for Immediacy Prediction.PNG"
+			                                alt="">
+			                        </div>
+			                    </div>
+			                    <div class="span9">
+			                        <p>
+			                            <strong>Multi-task Recurrent Neural Network for Immediacy Prediction </strong> <br />
+			                            Xiao Chu, Wanli Ouyang, Wei Yang, and Xiaogang Wang, IEEE International Conference on
+			                            Computer Vision (<strong>ICCV</strong>), 2015 <br /> <br />
+			                            In this paper, we propose to predict immediacy for interacting persons from still images. A
+			                            complete immediacy set includes interactions, relative distance, body leaning direction and
+			                            standing orientation. These measures are found to be related to the attitude, social
+			                            relationship, social interaction, action, nationality, and religion of the communicators. A
+			                            large-scale dataset with 10, 000 images is constructed, in which all the immediacy cues and
+			                            the human poses are annotated. We propose a rich set of immediacy representations that help
+			                            to predict immediacy from imperfect 1-person and 2-person pose estimation results. A
+			                            multi-task deep recurrent neural network is constructed to take the proposed rich immediacy
+			                            representations as the input and learn the complex relationship among immediacy predictions
+			                            through multiple steps of refinement. The effectiveness of the proposed approach is proved
+			                            through extensive experiments on the large-scale dataset.<br />
+			                            <a
+			                                href="https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Chu_Multi-Task_Recurrent_Neural_ICCV_2015_paper.pdf"><span
+			                                    class="label_download">PDF</span></a>
+			                        </p>
+			                    </div>
+			                </div>
+			                <p></p>
+			                <div class="row-fluid">
+			                    <div class="span3">
+			                        <div class="thumbnail">
+			                            <img src="./images/projects/human_pose_estimation_relationship_detection/Detecting Visual Relationships with Deep Relational Networks.png"
+			                                alt="">
+			                        </div>
+			                    </div>
+			                    <div class="span9">
+			                        <p>
+			                            <strong>Detecting Visual Relationships with Deep Relational Networks</strong> <br />
+			                            Bo Dai, Yuqi Zhang, and Dahua Lin, IEEE Conference on Computer Vision and Pattern
+			                            Recognition (<strong>CVPR</strong>), 2017 <br /> <br />
+			                            This paper addresses semantic image segmentation by incorporating rich information into
+			                            Markov Random Field (MRF), including high-order relations and mixture of label contexts.
+			                            Unlike previous works that optimized MRFs using iterative algorithm, we solve MRF by
+			                            proposing a Convolutional Neural Network (CNN), namely Deep Parsing Network (DPN), which
+			                            enables deterministic end-to-end computation in a single forward pass. Specifically, DPN
+			                            extends a contemporary CNN architecture to model unary terms and additional layers are
+			                            carefully devised to approximate the mean field algorithm (MF) for pairwise terms. It has
+			                            several appealing properties. First, different from the recent works that combined CNN and
+			                            MRF, where many iterations of MF were required for each training image during
+			                            back-propagation, DPN is able to achieve high performance by approximating one iteration of
+			                            MF. Second, DPN represents various types of pairwise terms, making many existing works as
+			                            its special cases. Third, DPN makes MF easier to be parallelized and speeded up in Graphical
+			                            Processing Unit (GPU). DPN is thoroughly evaluated on the PASCAL VOC 2012 dataset, where a
+			                            single DPN model yields a new state-of-the-art segmentation accuracy of 77.5%.<br />
+			                            <a
+			                                href="http://openaccess.thecvf.com/content_cvpr_2017/papers/Dai_Detecting_Visual_Relationships_CVPR_2017_paper.pdf"><span
+			                                    class="label_download">PDF</span></a>
+			                        </p>
+			                    </div>
+			                </div>
+			                <p></p>
+
+
+
+                        <div class="page-header">
+                            <h2>Detection and Segmentation <small></small></h2>
+                        </div>
+
+			                <div class="row-fluid">
+			                    <div class="span3">
+			                        <div class="thumbnail">
+			                            <img src="./images/projects/object_detection_semantic_segmentation_instance_segmentation/DeepID-Net Deformable Deep Convolutional Neural Networks for Object Detection.PNG" alt="">
+			                        </div>
+			                    </div>
+			                    <div class="span9">
+			                        <p>
+			                            <strong>DeepID-Net: Deformable Deep Convolutional Neural Networks for Object Detection</strong> <br />
+			                            Wanli Ouyang, Xiaogang Wang, Xingyu Zeng, Shi Qiu, Ping Luo, Yonglong Tian, Hongsheng Li, Shuo Yang, Zhe Wang, Chen-Change Loy, Xiaoou Tang, IEEE Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2015   <br /> <br />
+			                            In this paper, we propose deformable deep convolutional neural networks for generic object detection. This new deep learning object detection framework has innovations in multiple aspects. In the proposed new deep architecture, a new deformation constrained pooling (def-pooling) layer models the deformation of object parts with geometric constraint and penalty. A new pre-training strategy is proposed to learn feature representations more suitable for the object detection task and with good generalization capability. By changing the net structures, training strategies, adding and removing some key components in the detection pipeline, a set of models with large diversity are obtained, which significantly improves the effectiveness of model averaging. The proposed approach improves the mean averaged precision obtained by RCNN [14], which was the state-ofthe-art, from 31% to 50.3% on the ILSVRC2014 detection test set. It also outperforms the winner of ILSVRC2014, GoogLeNet, by 6.1%. Detailed component-wise analysis is also provided through extensive experimental evaluation, which provide a global view for people to understand the deep learning object detection pipeline. <br />
+			                            <a href="https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Ouyang_DeepID-Net_Deformable_Deep_2015_CVPR_paper.pdf"><span
+			                                    class="label_download">PDF</span></a>
+			                        </p>
+			                    </div>
+			                </div>
+			                <p></p>
+			                <div class="row-fluid">
+			                    <div class="span3">
+			                        <div class="thumbnail">
+			                            <img src="./images/projects/object_detection_semantic_segmentation_instance_segmentation/Semantic Image Segmentation via Deep Parsing Network .png" alt="">
+			                        </div>
+			                    </div>
+			                    <div class="span9">
+			                        <p>
+			                            <strong>Semantic Image Segmentation via Deep Parsing Network </strong> <br />
+			                            Ziwei Liu, Xiaoxiao Li, Ping Luo, Chen Change Loy, and Xiaoou Tang, IEEE International Conference on Computer Vision (<strong>ICCV</strong>), 2015   <br /> <br />
+			                            This paper addresses semantic image segmentation by incorporating rich information into Markov Random Field (MRF), including high-order relations and mixture of label contexts. Unlike previous works that optimized MRFs using iterative algorithm, we solve MRF by proposing a Convolutional Neural Network (CNN), namely Deep Parsing Network (DPN), which enables deterministic end-to-end computation in a single forward pass. Specifically, DPN extends a contemporary CNN architecture to model unary terms and additional layers are carefully devised to approximate the mean field algorithm (MF) for pairwise terms. It has several appealing properties. First, different from the recent works that combined CNN and MRF, where many iterations of MF were required for each training image during back-propagation, DPN is able to achieve high performance by approximating one iteration of MF. Second, DPN represents various types of pairwise terms, making many existing works as its special cases. Third, DPN makes MF easier to be parallelized and speeded up in Graphical Processing Unit (GPU). DPN is thoroughly evaluated on the PASCAL VOC 2012 dataset, where a single DPN model yields a new state-of-the-art segmentation accuracy.<br />
+			                            <a href="http://openaccess.thecvf.com/content_iccv_2015/papers/Liu_Semantic_Image_Segmentation_ICCV_2015_paper.pdf"><span
+			                                    class="label_download">PDF</span></a>
+			                        </p>
+			                    </div>
+			                </div>
+			                <p></p>
+			                <div class="row-fluid">
+			                    <div class="span3">
+			                        <div class="thumbnail">
+			                            <img src="./images/projects/object_detection_semantic_segmentation_instance_segmentation/Hybrid Task Cascade for Instance Segmentation.PNG" alt="">
+			                        </div>
+			                    </div>
+			                    <div class="span9">
+			                        <p>
+			                            <strong>Hybrid Task Cascade for Instance Segmentation</strong> <br />
+			                            Kai Chen, Jiangmiao Pang, Jiaqi Wang, Yu Xiong, Xiaoxiao Li, Shuyang Sun, Wansen Feng, Ziwei Liu, Jianping Shi, Wanli Ouyang, Chen Change Loy, and Dahua Lin, IEEE Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2019 <br /> <br />
+			                            Cascade is a classic yet powerful architecture that has boosted performance on various tasks. However, how to introduce cascade to instance segmentation remains an open question. A simple combination of Cascade R-CNN and Mask R-CNN only brings limited gain. In exploring a more effective approach, we find that the key to a successful instance segmentation cascade is to fully leverage the reciprocal relationship between detection and segmentation. In this work, we propose a new framework, Hybrid Task Cascade (HTC), which differs in two important aspects: (1) instead of performing cascaded refinement on these two tasks separately, it interweaves them for a joint multi-stage processing; (2) it adopts a fully convolutional branch to provide spatial context, which can help distinguishing hard foreground from cluttered background. Overall, this framework can learn more discriminative features progressively while integrating complementary features together in each stage. Without bells and whistles, a single HTC obtains 38.4 and 1.5 improvement over a strong Cascade Mask R-CNN baseline on MSCOCO dataset. Moreover, our overall system achieves 48.6 mask AP on the test-challenge split, ranking 1st in the COCO 2018 Challenge Object Detection Task.<br />
+			                            <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Hybrid_Task_Cascade_for_Instance_Segmentation_CVPR_2019_paper.pdf"><span class="label_download">PDF</span></a>
+			                        </p>
+			                    </div>
+			                </div>
+			                <p></p>
+
+
+			                <div class="row-fluid">
+			                    <div class="span3">
+			                        <div class="thumbnail">
+			                            <img src="./images/projects/video_object_detection_segmentation_tracking/Object Detection From Video Tubelets With Convolutional Neural Networks.PNG"
+			                                alt="">
+			                        </div>
+			                    </div>
+			                    <div class="span9">
+			                        <p>
+			                            <strong>Object Detection From Video Tubelets With Convolutional Neural Networks</strong>
+			                            <br />
+			                            Kai Kang, Wanli Ouyang, Hongsheng Li, and Xiaogang Wang, IEEE Conference on Computer Vision
+			                            and Pattern Recognition (<strong>CVPR</strong>), 2016 <br /> <br />
+			                            Deep Convolution Neural Networks (CNNs) have shown impressive performance in various vision
+			                            tasks such as image classification, object detection and semantic segmentation. For object
+			                            detection, particularly in still images, the performance has been significantly increased
+			                            last year thanks to powerful deep networks (e.g. GoogleNet) and detection frameworks (e.g.
+			                            Regions with CNN features (RCNN)). The lately introduced ImageNet [6] task on object
+			                            detection from video (VID) brings the object detection task into the video domain, in which
+			                            objects’ locations at each frame are required to be annotated with bounding boxes. In this
+			                            work, we introduce a complete framework for the VID task based on still-image object
+			                            detection and general object tracking. Their relations and contributions in the VID task are
+			                            thoroughly studied and evaluated. In addition, a temporal convolution network is proposed to
+			                            incorporate temporal information to regularize the detection results and shows its
+			                            effectiveness for the task. <br />
+			                            <a
+			                                href="http://openaccess.thecvf.com/content_cvpr_2016/papers/Kang_Object_Detection_From_CVPR_2016_paper.pdf"><span
+			                                    class="label_download">PDF</span></a>
+			                        </p>
+			                    </div>
+			                </div>
+			                <p></p>
+			                <div class="row-fluid">
+			                    <div class="span3">
+			                        <div class="thumbnail">
+			                            <img src="./images/projects/video_object_detection_segmentation_tracking/Video Object Segmentation with Re-identification.png"
+			                                alt="">
+			                        </div>
+			                    </div>
+			                    <div class="span9">
+			                        <p>
+			                            <strong>Video Object Segmentation with Re-identification </strong> <br />
+			                            Xiaoxiao Li, and Chen Change Loy, European Conference on Computer Vision
+			                            (<strong>ECCV</strong>), 2018 <br /> <br />
+			                            Conventional video segmentation methods often rely on temporal continuity to propagate
+			                            masks. Such an assumption suffers from issues like drifting and inability to handle large
+			                            displacement. To overcome these issues, we formulate an effective mechanism to prevent the
+			                            target from being lost via adaptive object re-identification. Specifically, our Video Object
+			                            Segmentation with Re-identification (VS-ReID) model includes a mask propagation module and a
+			                            ReID module. The former module produces an initial probability map by flow warping while the
+			                            latter module retrieves missing instances by adaptive matching. With these two modules
+			                            iteratively applied, our VS-ReID records a global mean (Region Jaccard and Boundary F
+			                            measure) of 0.699, the best performance in 2017 DAVIS Challenge.Published in CVPR 2017
+			                            Workshop, DAVIS Challenge on Video Object Segmentation 2017 (Winning Entry)<br />
+			                            <a href="https://arxiv.org/pdf/1708.00197.pdf"><span class="label_download">PDF</span></a>
+			                        </p>
+			                    </div>
+			                </div>
+			                <p></p>
+			                <div class="row-fluid">
+			                    <div class="span3">
+			                        <div class="thumbnail">
+			                            <img src="./images/projects/video_object_detection_segmentation_tracking/Visual Tracking with Fully Convolutional Networks.PNG"
+			                                alt="">
+			                        </div>
+			                    </div>
+			                    <div class="span9">
+			                        <p>
+			                            <strong>Visual Tracking with Fully Convolutional Networks</strong> <br />
+			                            Lijun Wang, Wanli Ouyang, Xiaogang Wang, and Huchuan Lu, IEEE International Conference on
+			                            Computer Vision (<strong>ICCV</strong>), 2015 <br /> <br />
+			                            We propose a new approach for general object tracking with fully convolutional neural
+			                            network. Instead of treating convolutional neural network (CNN) as a black-box feature
+			                            extractor, we conduct in-depth study on the properties of CNN features offline pre-trained
+			                            on massive image data and classification task on ImageNet. The discoveries motivate the
+			                            design of our tracking system. It is found that convolutional layers in different levels
+			                            characterize the target from different perspectives. A top layer encodes more semantic
+			                            features and serves as a category detector, while a lower layer carries more discriminative
+			                            information and can better separate the target from distracters with similar appearance.
+			                            Both layers are jointly used with a switch mechanism during tracking. It is also found that
+			                            for a tracking target, only a subset of neurons are relevant. A feature map selection method
+			                            is developed to remove noisy and irrelevant feature maps, which can reduce computation
+			                            redundancy and improve tracking accuracy. Extensive evaluation on the widely used tracking
+			                            benchmark [36] shows that the proposed tacker outperforms the state-of-the-art
+			                            significantly.<br />
+			                            <a
+			                                href="http://openaccess.thecvf.com/content_iccv_2015/papers/Wang_Visual_Tracking_With_ICCV_2015_paper.pdf"><span
+			                                    class="label_download">PDF</span></a>
+			                        </p>
+			                    </div>
+			                </div>
+			                <p></p>
+
+
+
+                        <div class="page-header">
+                            <h2>Video Understanding <small></small></h2>
+                        </div>
+			                <div class="row-fluid">
+			                    <div class="span3">
+			                        <div class="thumbnail">
+			                            <img src="images/projects/video_action_detection/Temporal.png" alt="" width="450"
+			                                height="332"> </div>
+			                    </div>
+			                    <div class="span9">
+			                        <p>
+			                            <strong>Temporal Segment Networks: Towards Good Practices for Deep Action
+			                                Recognition</strong> <br />
+			                            Limin Wang, Yuanjun Xiong, Zhe Wang, Yu Qiao, Dahua Lin, Xiaoou Tang, and Luc Van Gool,
+			                            European Conference on Computer Vision (<strong>ECCV</strong>), 2016 <br /> <br />
+			                            This paper aims to discover the principles to design effective ConvNet architectures
+			                            for action recognition in videos and learn these models given
+			                            limited training samples. Our first contribution is temporal segment network
+			                            (TSN), a novel framework for video-based action recognition. which
+			                            is based on the idea of long-range temporal structure modeling. It combines
+			                            a sparse temporal sampling strategy and video-level supervision to
+			                            enable efficient and effective learning using the whole action video. The
+			                            other contribution is our study on a series of good practices in learning
+			                            ConvNets on video data with the help of temporal segment network.<br />
+			                            <a href="https://arxiv.org/pdf/1608.00859.pdf"><span class="label_download">PDF</span></a>
+			                            <!-- <a href=""><span class="label_download">Project Page</span></a> -->
+			                        </p>
+			                    </div>
+			                </div>
+			                <p></p>
+			                <div class="row-fluid">
+			                    <div class="span3">
+			                        <div class="thumbnail">
+			                            <img src="images/projects/video_action_detection/Optim.gif" alt="" width="654" height="496">
+			                        </div>
+			                    </div>
+			                    <div class="span9">
+			                        <p> <strong>Optimizing Video Object Detection via a Scale-Time Lattice</strong> <br />
+			                            Kai Chen, Jiaqi Wang, Shuo Yang, Xingcheng Zhang, Yuanjun Xiong, Chen Change Loy, and Dahua
+			                            Lin, IEEE Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>),
+			                            2018 </p>
+			                        <p><br />
+			                            This paper explores an alternative approach,
+			                            that is, to reallocate the computation over a scale-time
+			                            space. The basic idea is to perform expensive detection
+			                            sparsely and propagate the results across both scales and
+			                            time with substantially cheaper networks, by exploiting the
+			                            strong correlations among them. Specifically, we present a
+			                            unified framework that integrates detection, temporal propagation,
+			                            and across-scale refinement on a Scale-Time Lattice.
+			                            On this framework, one can explore various strategies
+			                            to balance performance and cost. Taking advantage of
+			                            this flexibility, we further develop an adaptive scheme with
+			                            the detector invoked on demand and thus obtain improved
+			                            tradeoff. <br />
+			                            <a
+			                                href="http://openaccess.thecvf.com/content_cvpr_2018/papers/Chen_Optimizing_Video_Object_CVPR_2018_paper.pdf"><span
+			                                    class="label_download">PDF</span></a>
+			                            <!-- <a href=""><span class="label_download">Project Page</span></a> -->
+			                        </p>
+			                    </div>
+			                </div>
+			                <p></p>
+			                <div class="row-fluid">
+			                    <div class="span3">
+			                        <div class="thumbnail">
+			                            <img src="images/projects/video_action_detection/Untrim.png" alt="" width="582"
+			                                height="264"> </div>
+			                    </div>
+			                    <div class="span9">
+			                        <p> <strong>Untrimmednets for weakly supervised action recognition and detection</strong> <br />
+			                            Limin Wang, Yuanjun Xiong, Dahua Lin, and Luc Van Gool, IEEE Conference on Computer Vision
+			                            and Pattern Recognition (<strong>CVPR</strong>), 2017 <br /> <br />
+			                            This paper presents a new weakly supervised
+			                            architecture, called UntrimmedNet, which is able to
+			                            directly learn action recognition models from untrimmed
+			                            videos without the requirement of temporal annotations of
+			                            action instances. Our UntrimmedNet couples two important
+			                            components, the classification module and the selection
+			                            module, to learn the action models and reason about the
+			                            temporal duration of action instances, respectively. These
+			                            two components are implemented with feed-forward networks,
+			                            and UntrimmedNet is therefore an end-to-end trainable
+			                            architecture.<br />
+			                            <a
+			                                href="http://openaccess.thecvf.com/content_cvpr_2017/papers/Wang_UntrimmedNets_for_Weakly_CVPR_2017_paper.pdf"><span
+			                                    class="label_download">PDF</span></a>
+			                            <!-- <a href=""><span class="label_download">Project Page</span></a> -->
+			                        </p>
+			                    </div>
+			                </div>
+			                <p></p>
+
+			                                <div class="row-fluid">
+			                    <div class="span3">
+			                        <div class="thumbnail">
+			                            <img src="images/projects/movie_analysis/Person.png" alt="" width="450" height="332"> </div>
+			                    </div>
+			                    <div class="span9">
+			                        <p>
+			                            <strong>Person Search in Videos with One Portrait Through Visual and Temporal Links</strong>
+			                            <br />
+			                            Qingqiu Huang, Wentao Liu, and Dahua Lin, European Conference on Computer Vision
+			                            (<strong>ECCV</strong>), 2018 <br /> <br />
+			                            In this paper, we aim to tackle this challenge and propose a novel framework,
+			                            which takes into account the identity invariance along a tracklet, thus
+			                            allowing person identities to be propagated via both the visual and the
+			                            temporal links. We also develop a novel scheme called Progressive Propagation
+			                            via Competitive Consensus, which significantly improves the reliability
+			                            of the propagation process. To promote the study of person search,
+			                            we construct a large-scale benchmark, which contains 127K manually annotated
+			                            tracklets from 192 movies.<br />
+			                            <a
+			                                href="http://openaccess.thecvf.com/content_ECCV_2018/papers/Qingqiu_Huang_Person_Search_in_ECCV_2018_paper.pdf"><span
+			                                    class="label_download">PDF</span></a>
+			                            <!-- <a href=""><span class="label_download">Project Page</span></a> -->
+			                        </p>
+			                    </div>
+			                </div>
+			                <p></p>
+			                <div class="row-fluid">
+			                    <div class="span3">
+			                        <div class="thumbnail">
+			                            <img src="images/projects/movie_analysis/Find.jpg" alt="" width="654" height="496"> </div>
+			                    </div>
+			                    <div class="span9">
+			                        <p> <strong>Find and Focus: Retrieve and Localize Video Events with Natural Language
+			                                Queries</strong> <br />
+			                            Dian Shao*, Yu Xiong*, Yue Zhao, Qingqiu Huang, Yu Qiao, and Dahua Lin, European Conference
+			                            on Computer Vision (<strong>ECCV</strong>), 2018 </p>
+			                        <p><br />
+			                            In this work, we aim to move beyond this limitation
+			                            by delving into the internal structures of both sides, the queries and the
+			                            videos. Specifically, we propose a new framework called Find and Focus
+			                            (FIFO), which not only performs top-level matching (paragraph vs.
+			                            video), but also makes part-level associations, localizing a video clip for
+			                            each sentence in the query with the help of a focusing guide. These levels
+			                            are complementary – the top-level matching narrows the search while
+			                            the part-level localization refines the results. On both ActivityNet Captions
+			                            and modified LSMDC datasets, the proposed framework achieves
+			                            remarkable performance gains.<br />
+			                            <a
+			                                href="http://openaccess.thecvf.com/content_ECCV_2018/papers/Dian_SHAO_Find_and_Focus_ECCV_2018_paper.pdf"><span
+			                                    class="label_download">PDF</span></a>
+			                            <!-- <a href=""><span class="label_download">Project Page</span></a> -->
+			                        </p>
+			                    </div>
+			                </div>
+			                <p></p>
+			                <div class="row-fluid">
+			                    <div class="span3">
+			                        <div class="thumbnail">
+			                            <img src="images/projects/movie_analysis/From.png" alt="" width="582" height="264"> </div>
+			                    </div>
+			                    <div class="span9">
+			                        <p> <strong>From Trailers to Storylines: An Efficient Way to Learn from Movies</strong> <br />
+			                            Qingqiu Huang, Yuanjun Xiong, Yu Xiong, Yuqi Zhang, and Dahua Lin, arXiv preprint
+			                            arXiv:1806.05341, 2018 <br /> <br />
+			                            In this paper, we explore an alternative
+			                            approach to learning vision models from movies.
+			                            Specifically, we consider a framework comprised of a visual
+			                            module and a temporal analysis module. Unlike conventional
+			                            learning methods, the proposed approach learns
+			                            these modules from different sets of data – the former from
+			                            trailers while the latter from movies. This allows distinctive
+			                            visual features to be learned within a reasonable budget
+			                            while still preserving long-term temporal structures across an entire movie. We construct a
+			                            large-scale dataset for this
+			                            study and define a series of tasks on top. Experiments on
+			                            this dataset showed that the proposed method can substantially
+			                            reduce the training time while obtaining highly effective
+			                            features and coherent temporal structures. <br />
+			                            <a href="https://arxiv.org/pdf/1806.05341.pdf"><span class="label_download">PDF</span></a>
+			                            <!-- <a href=""><span class="label_download">Project Page</span></a> -->
+			                        </p>
+			                    </div>
+			                </div>
+
+
+                        <div class="page-header">
+                            <h2>Low-Level Vision <small></small></h2>
+                        </div>
+			                <div class="row-fluid">
+			                    <div class="span3">
+			                        <div class="thumbnail">
+			                            <img src="images/projects/image_processing/Learning.png" alt="" width="450" height="332">
+			                        </div>
+			                    </div>
+			                    <div class="span9">
+			                        <p>
+			                            <strong>Learning a Deep Convolutional Network for Image Super-Resolution</strong> <br />
+			                            Chao Dong, Chen Change Loy, Kaiming He, and Xiaoou Tang, European Conference on Computer
+			                            Vision (<strong>ECCV</strong>), 2014 <br /> <br />
+			                            We propose a deep learning method for single image superresolution
+			                            (SR). Our method directly learns an end-to-end mapping between
+			                            the low/high-resolution images. The mapping is represented as
+			                            a deep convolutional neural network (CNN) that takes the lowresolution
+			                            image as the input and outputs the high-resolution one. We
+			                            further show that traditional sparse-coding-based SR methods can also
+			                            be viewed as a deep convolutional network. But unlike traditional methods
+			                            that handle each component separately, our method jointly optimizes
+			                            all layers. Our deep CNN has a lightweight structure, yet demonstrates
+			                            state-of-the-art restoration quality, and achieves fast speed for practical
+			                            on-line usage.<br />
+			                            <a
+			                                href="https://www.researchgate.net/profile/Chen_Change_Loy/publication/264552416_Lecture_Notes_in_Computer_Science/links/53e583e50cf25d674e9c280e.pdf"><span
+			                                    class="label_download">PDF</span></a>
+			                            <!-- <a href=""><span class="label_download">Project Page</span></a> -->
+			                        </p>
+			                    </div>
+			                </div>
+			                <p></p>
+			                <div class="row-fluid">
+			                    <div class="span3">
+			                        <div class="thumbnail">
+			                            <img src="images/projects/image_processing/Compression.png" alt="" width="654" height="496">
+			                        </div>
+			                    </div>
+			                    <div class="span9">
+			                        <p> <strong>Compression Artifacts Reduction by a Deep Convolutional Network</strong> <br />
+			                            Chao Dong, Yubin Deng, Chen Change Loy, and Xiaoou Tang, IEEE International Conference on
+			                            Computer Vision (<strong>ICCV</strong>), 2015 </p>
+			                        <p><br />
+			                            We formulate a compact and efficient
+			                            network for seamless attenuation of different compression
+			                            artifacts. We also demonstrate that a deeper model can
+			                            be effectively trained with the features learned in a shallow
+			                            network. Following a similar “easy to hard” idea, we
+			                            systematically investigate several practical transfer settings
+			                            and show the effectiveness of transfer learning in low-level
+			                            vision problems. Our method shows superior performance
+			                            than the state-of-the-arts both on the benchmark datasets
+			                            and the real-world use case (i.e. Twitter). <br />
+			                            <a
+			                                href="http://openaccess.thecvf.com/content_iccv_2015/papers/Dong_Compression_Artifacts_Reduction_ICCV_2015_paper.pdf"><span
+			                                    class="label_download">PDF</span></a>
+			                            <!-- <a href=""><span class="label_download">Project Page</span></a> -->
+			                        </p>
+			                    </div>
+			                </div>
+			                <p></p>
+			                <div class="row-fluid">
+			                    <div class="span3">
+			                        <div class="thumbnail">
+			                            <img src="images/projects/image_processing/ESRGAN.png" alt="" width="582" height="264">
+			                        </div>
+			                    </div>
+			                    <div class="span9">
+			                        <p> <strong>ESRGAN: Enhanced Super-Resolution Generative Adversarial Networks</strong> <br />
+			                            Xintao Wang, Ke Yu, Shixiang Wu, Jinjin Gu, Yihao Liu, Chao Dong, Yu Qiao, and Chen Change
+			                            Loy, European Conference on Computer Vision (<strong>ECCV</strong>), 2018 <br /> <br />
+			                            We thoroughly study three key components of SRGAN
+			                            – network architecture, adversarial loss and perceptual loss, and
+			                            improve each of them to derive an Enhanced SRGAN (ESRGAN). In
+			                            particular, we introduce the Residual-in-Residual Dense Block (RRDB)
+			                            without batch normalization as the basic network building unit. Moreover,
+			                            we borrow the idea from relativistic GAN to let the discriminator
+			                            predict relative realness instead of the absolute value. Finally, we improve
+			                            the perceptual loss by using the features before activation, which
+			                            could provide stronger supervision for brightness consistency and texture
+			                            recovery. Benefiting from these improvements, the proposed ESRGAN
+			                            achieves consistently better visual quality with more realistic and natural
+			                            textures than SRGAN and won the first place in the PIRM2018-SR
+			                            Challenge (region 3) with the best perceptual index. <br />
+			                            <a
+			                                href="http://openaccess.thecvf.com/content_ECCVW_2018/papers/11133/Wang_ESRGAN_Enhanced_Super-Resolution_Generative_Adversarial_Networks_ECCVW_2018_paper.pdf"><span
+			                                    class="label_download">PDF</span></a>
+			                            <!-- <a href=""><span class="label_download">Project Page</span></a> -->
+			                        </p>
+			                    </div>
+			                </div>
+
+			                                <div class="row-fluid">
+			                    <div class="span3">
+			                        <div class="thumbnail">
+			                            <img src="images/projects/image_generation/StackGAN.png" alt="" width="450" height="332">
+			                        </div>
+			                    </div>
+			                    <div class="span9">
+			                        <p>
+			                            <strong>StackGAN: Text to photo-realistic image synthesis with stacked generative
+			                                adversarial networks</strong> <br />
+			                            Han Zhang, Tao Xu, Hongsheng Li, Shaoting Zhang, Xiaogang Wang, Xiaolei Huang, Dimitris
+			                            Metaxas, IEEE International Conference on Computer Vision (<strong>ICCV</strong>), 2017
+			                            <br /> <br />
+			                            In this paper, we propose Stacked
+			                            Generative Adversarial Networks (StackGAN) to generate
+			                            256⇥256 photo-realistic images conditioned on text descriptions.
+			                            We decompose the hard problem into more manageable
+			                            sub-problems through a sketch-refinement process.
+			                            The Stage-I GAN sketches the primitive shape and colors
+			                            of the object based on the given text description, yielding
+			                            Stage-I low-resolution images. The Stage-II GAN takes
+			                            Stage-I results and text descriptions as inputs, and generates
+			                            high-resolution images with photo-realistic details. It
+			                            is able to rectify defects in Stage-I results and add compelling
+			                            details with the refinement process. To improve the
+			                            diversity of the synthesized images and stabilize the training
+			                            of the conditional-GAN, we introduce a novel Conditioning
+			                            Augmentation technique that encourages smoothness in the
+			                            latent conditioning manifold. <br />
+			                            <a
+			                                href="http://openaccess.thecvf.com/content_ICCV_2017/papers/Zhang_StackGAN_Text_to_ICCV_2017_paper.pdf"><span
+			                                    class="label_download">PDF</span></a>
+			                            <!-- <a href=""><span class="label_download">Project Page</span></a> -->
+			                        </p>
+			                    </div>
+			                </div>
+			                <p></p>
+			                <div class="row-fluid">
+			                    <div class="span3">
+			                        <div class="thumbnail">
+			                            <img src="images/projects/image_generation/Prada.png" alt="" width="654" height="496">
+			                        </div>
+			                    </div>
+			                    <div class="span9">
+			                        <p> <strong>Be Your Own Prada: Fashion Synthesis with Structural Coherence</strong> <br />
+			                            Shizhan Zhu, Sanja Fidler, Raquel Urtasun, Dahua Lin, Chen Change Loy, IEEE International
+			                            Conference on Computer Vision (<strong>ICCV</strong>), 2017 </p>
+			                        <p><br />
+			                            We present a novel and effective approach for generating
+			                            new clothing on a wearer through generative adversarial
+			                            learning. Given an input image of a person and a sentence
+			                            describing a different outfit, our model “redresses” the person
+			                            as desired, while at the same time keeping the wearer
+			                            and her/his pose unchanged. We address
+			                            this challenge by decomposing the complex generative
+			                            process into two conditional stages. In the first stage, we
+			                            generate a plausible semantic segmentation map that obeys
+			                            the wearer’s pose as a latent spatial arrangement. An effective
+			                            spatial constraint is formulated to guide the generation
+			                            of this semantic segmentation map. In the second stage,
+			                            a generative model with a newly proposed compositional
+			                            mapping layer is used to render the final image with precise
+			                            regions and textures conditioned on this map. We extended
+			                            the DeepFashion dataset by collecting sentence descriptions
+			                            for 79K images. <br />
+			                            <a
+			                                href="http://openaccess.thecvf.com/content_ICCV_2017/papers/Zhu_Be_Your_Own_ICCV_2017_paper.pdf"><span
+			                                    class="label_download">PDF</span></a>
+			                            <!-- <a href=""><span class="label_download">Project Page</span></a> -->
+			                        </p>
+			                    </div>
+			                </div>
+			                <p></p>
+			                <div class="row-fluid">
+			                    <div class="span3">
+			                        <div class="thumbnail">
+			                            <img src="images/projects/image_generation/Inpainting.png" alt="" width="582" height="264">
+			                        </div>
+			                    </div>
+			                    <div class="span9">
+			                        <p> <strong>Deep Flow-Guided Video Inpainting</strong> <br />
+			                            Rui Xu, Xiaoxiao Li, Bolei Zhou, and Chen Change Loy, IEEE Conference on Computer Vision and
+			                            Pattern Recognition (<strong>CVPR</strong>), 2019 <br /> <br />
+			                            In this work we propose a novel flow-guided
+			                            video inpainting approach. Rather than filling in the RGB
+			                            pixels of each frame directly, we consider video inpainting
+			                            as a pixel propagation problem. We first synthesize a
+			                            spatially and temporally coherent optical flow field across
+			                            video frames using a newly designed Deep Flow Completion
+			                            network. Then the synthesized flow field is used to
+			                            guide the propagation of pixels to fill up the missing regions
+			                            in the video. Specifically, the Deep Flow Completion
+			                            network follows a coarse-to-fine refinement to complete
+			                            the flow fields, while their quality is further improved by
+			                            hard flow example mining. Following the guide of the completed
+			                            flow, the missing video regions can be filled up precisely. <br />
+			                            <a href="https://arxiv.org/pdf/1905.02884.pdf"><span class="label_download">PDF</span></a>
+			                            <!-- <a href=""><span class="label_download">Project Page</span></a> -->
+			                        </p>
+			                    </div>
+			                </div>
+
+
+
+                        <div class="page-header">
+                            <h2>Architecture and Learning <small></small></h2>
+                        </div>
+			                <div class="row-fluid">
+			                    <div class="span3">
+			                        <div class="thumbnail">
+			                            <img src="images/projects/network_architecture/PolyNet.png" alt="" width="450" height="332">
+			                        </div>
+			                    </div>
+			                    <div class="span9">
+			                        <p>
+			                            <strong>PolyNet: A Pursuit of Structural Diversity in Very Deep Networks</strong> <br />
+			                            Xingcheng Zhang*, Zhizhong Li*, Chen Change Loy, and Dahua Lin, IEEE Conference on Computer
+			                            Vision and Pattern Recognition (<strong>CVPR</strong>), 2017 <br /> <br />
+			                            We present a new family of modules, namely the PolyInception, which can
+			                            be flexibly inserted in isolation or in a composition as replacements
+			                            of different parts of a network. Choosing PolyInception
+			                            modules with the guidance of architectural efficiency
+			                            can improve the expressive power while preserving
+			                            comparable computational cost. The Very Deep PolyNet,
+			                            designed following this direction, demonstrates substantial
+			                            improvements over the state-of-the-art on the ILSVRC 2012
+			                            benchmark. <br />
+			                            <a
+			                                href="http://openaccess.thecvf.com/content_cvpr_2017/papers/Zhang_PolyNet_A_Pursuit_CVPR_2017_paper.pdf"><span
+			                                    class="label_download">PDF</span></a>
+			                            <!-- <a href=""><span class="label_download">Project Page</span></a> -->
+			                        </p>
+			                    </div>
+			                </div>
+			                <p></p>
+			                <div class="row-fluid">
+			                    <div class="span3">
+			                        <div class="thumbnail">
+			                            <img src="images/projects/network_architecture/FishNet.png" alt="" width="654" height="496">
+			                        </div>
+			                    </div>
+			                    <div class="span9">
+			                        <p> <strong>FishNet: A Versatile Backbone for Image, Region, and Pixel Level Prediction</strong>
+			                            <br />
+			                            Shuyang Sun, Jiangmiao Pang, Jianping Shi, Shuai Yi, Wanli Ouyang, Neural Information
+			                            Processing Systems (<strong>NIPS</strong>), 2018 </p>
+			                        <p><br />
+			                            We design a fish-like network, called FishNet.
+			                            In FishNet, the information of all resolutions is preserved and refined for the final
+			                            task. Besides, we observe that existing works still cannot directly propagate the
+			                            gradient information from deep layers to shallow layers. Our design can better
+			                            handle this problem. Extensive experiments have been conducted to demonstrate
+			                            the remarkable performance of the FishNet. In particular, on ImageNet-1k, the
+			                            accuracy of FishNet is able to surpass the performance of DenseNet and ResNet
+			                            with fewer parameters. FishNet was applied as one of the modules in the winning
+			                            entry of the COCO Detection 2018 challenge. <br />
+			                            <a
+			                                href="http://papers.nips.cc/paper/7356-fishnet-a-versatile-backbone-for-image-region-and-pixel-level-prediction.pdf"><span
+			                                    class="label_download">PDF</span></a>
+			                            <!-- <a href=""><span class="label_download">Project Page</span></a> -->
+			                        </p>
+			                    </div>
+			                </div>
+			                <p></p>
+			                <div class="row-fluid">
+			                    <div class="span3">
+			                        <div class="thumbnail">
+			                            <img src="images/projects/network_architecture/POPQORN.png" alt="" width="582" height="264">
+			                        </div>
+			                    </div>
+			                    <div class="span9">
+			                        <p> <strong>POPQORN: Quantifying Robustness of Recurrent Neural Networks</strong> <br />
+			                            Ching-Yun Ko*, Zhaoyang Lyu*, Tsui-Wei Weng, Luca Daniel, Ngai Wong, and Dahua Lin,
+			                            International Conference on Machine Learning (<strong>ICML</strong>), 2019 <br /> <br />
+			                            In this work, we propose POPQORN (Propagatedoutput
+			                            Quantified Robustness for RNNs), a general
+			                            algorithm to quantify robustness of RNNs,
+			                            including vanilla RNNs, LSTMs, and GRUs. We
+			                            demonstrate its effectiveness on different network
+			                            architectures and show that the robustness quantification
+			                            on individual steps can lead to new insights. <br />
+			                            <a href="https://arxiv.org/pdf/1905.07387.pdf"><span class="label_download">PDF</span></a>
+			                            <!-- <a href=""><span class="label_download">Project Page</span></a> -->
+			                        </p>
+			                    </div>
+			                </div>
+			                                <div class="row-fluid">
+			                    <div class="span3">
+			                        <div class="thumbnail">
+			                            <img src="images/projects/multi_modal_learning/Towards.png" alt="" width="450" height="332">
+			                        </div>
+			                    </div>
+			                    <div class="span9">
+			                        <p>
+			                            <strong>Towards Diverse and Natural Image Descriptions via a Conditional GAN</strong> <br />
+			                            Bo Dai, Sanja Fidler, Raquel Urtasun, and Dahua Lin, IEEE International Conference on
+			                            Computer Vision (<strong>ICCV</strong>), 2017 <br /> <br />
+			                            In this paper, we explore an alternative approach,
+			                            with the aim to improve the naturalness and diversity – two
+			                            essential properties of human expression. Specifically, we
+			                            propose a new framework based on Conditional Generative
+			                            Adversarial Networks (CGAN), which jointly learns a generator
+			                            to produce descriptions conditioned on images and
+			                            an evaluator to assess how well a description fits the visual
+			                            content. It is noteworthy that training a sequence generator
+			                            is nontrivial. We overcome the difficulty by Policy Gradient,
+			                            a strategy stemming from Reinforcement Learning, which
+			                            allows the generator to receive early feedback along the
+			                            way. We tested our method on two large datasets, where
+			                            it performed competitively against real people in our user
+			                            study and outperformed other methods on various tasks. <br />
+			                            <a
+			                                href="http://openaccess.thecvf.com/content_ICCV_2017/papers/Dai_Towards_Diverse_and_ICCV_2017_paper.pdf"><span
+			                                    class="label_download">PDF</span></a>
+			                            <!-- <a href=""><span class="label_download">Project Page</span></a> -->
+			                        </p>
+			                    </div>
+			                </div>
+			                <p></p>
+			                <div class="row-fluid">
+			                    <div class="span3">
+			                        <div class="thumbnail">
+			                            <img src="images/projects/multi_modal_learning/Move.png" alt="" width="654" height="496">
+			                        </div>
+			                    </div>
+			                    <div class="span9">
+			                        <p> <strong>Move Forward and Tell: A Progressive Generator of Video Descriptions</strong> <br />
+			                            Yilei Xiong, Bo Dai, and Dahua Lin, European Conference on Computer Vision
+			                            (<strong>ECCV</strong>), 2018 </p>
+			                        <p><br />
+			                            We present an efficient framework that can generate a coherent
+			                            paragraph to describe a given video. We propose
+			                            a new approach, which produces a descriptive paragraph by assembling
+			                            temporally localized descriptions. Given a video, it selects a sequence of
+			                            distinctive clips and generates sentences thereon in a coherent manner.
+			                            Particularly, the selection of clips and the production of sentences are
+			                            done jointly and progressively driven by a recurrent network – what to
+			                            describe next depends on what have been said before. Here, the recurrent
+			                            network is learned via self-critical sequence training with both sentencelevel
+			                            and paragraph-level rewards. On the ActivityNet Captions dataset,
+			                            our method demonstrated the capability of generating high-quality paragraph
+			                            descriptions for videos. <br />
+			                            <a
+			                                href="http://openaccess.thecvf.com/content_ECCV_2018/papers/Yilei_Xiong_Move_Forward_and_ECCV_2018_paper.pdf"><span
+			                                    class="label_download">PDF</span></a>
+			                            <!-- <a href=""><span class="label_download">Project Page</span></a> -->
+			                        </p>
+			                    </div>
+			                </div>
+			                <p></p>
+			                <div class="row-fluid">
+			                    <div class="span3">
+			                        <div class="thumbnail">
+			                            <img src="images/projects/multi_modal_learning/Talking.png" alt="" width="582" height="264">
+			                        </div>
+			                    </div>
+			                    <div class="span9">
+			                        <p> <strong>Talking Face Generation by Adversarially Disentangled Audio-Visual
+			                                Representation</strong> <br />
+			                            Hang Zhou, Yu Liu, Ziwei Liu, Ping Luo, Xiaogang Wang, AAAI Conference on Artificial
+			                            Intelligence (<strong>AAAI</strong>), 2019 <br /> <br />
+			                            In this work, we integrate both aspects and enable arbitrary-subject
+			                            talking face generation by learning disentangled audio-visual
+			                            representation. We find that the talking face sequence is actually
+			                            a composition of both subject-related information and
+			                            speech-related information. These two spaces are then explicitly
+			                            disentangled through a novel associative-and-adversarial
+			                            training process. This disentangled representation has an advantage
+			                            where both audio and video can serve as inputs for
+			                            generation. Extensive experiments show that the proposed approach
+			                            generates realistic talking face sequences on arbitrary
+			                            subjects with much clearer lip motion patterns than previous
+			                            work. We also demonstrate the learned audio-visual representation
+			                            is extremely useful for the tasks of automatic lip
+			                            reading and audio-video retrieval. <br />
+			                            <a href="https://arxiv.org/pdf/1807.07860.pdf"><span class="label_download">PDF</span></a>
+			                            <!-- <a href=""><span class="label_download">Project Page</span></a> -->
+			                        </p>
+			                    </div>
+			                </div>
+
+
+
+
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!-- Footer ================================================== -->
+            <footer class="footer">
+                <div class="container">
+                    <p class="pull-right">
+                        Share This Page <br />
+                        <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+                        <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>
+
+                        <!-- Place this tag where you want the +1 button to render. -->
+                        <div class="g-plusone" data-size="medium"></div>
+
+                        <div id="fb-root"></div>
+                    </p>
+                    <p>&copy 2013-2019 <a href="http://mmlab.ie.cuhk.edu.hk/">Multimedia Laboratory</a></p>
+                    <p><a href="http://www.cuhk.edu.hk/english/index.html">The Chinese University of Hong Kong
+                            香港中文大学</a></p>
+
+                    <!-- Modal -->
+                    <div id="creditModal" class="modal hide fade" tabindex="-1" role="dialog"
+                        aria-labelledby="creditModalLabel" aria-hidden="true" style="display: none;">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h3 id="creditModalLabel">Site Credits</h3>
+                        </div>
+                        <div class="modal-body">
+                            <p>This site was built using <a href="http://twitter.github.io/bootstrap/">Bootstrap</a>, a
+                                front-end framework for web development. Thanks to the following site developers and all
+                                lab members that contribute their suggestions and information</p>
+                            <ul>
+                                <li><a href="#">Bing Xu</a></li>
+                                <li><a href="http://www.ee.cuhk.edu.hk/~wlouyang/">Wanli Ouyang</a></li>
+                                <li><a href="#">Ping Luo</a></li>
+                                <li><a href="http://personal.ie.cuhk.edu.hk/~ccloy/">Chen Change Loy</a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    <p><a data-toggle="modal" href="index.html#creditModal">Site Credits</a></p>
+
+                    <!-- Modal -->
+                    <div id="contactModal" class="modal hide fade" tabindex="-1" role="dialog"
+                        aria-labelledby="contactModalLabel" aria-hidden="true" style="display: none;">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h3 id="contactModalLabel">Contact Us</h3>
+                        </div>
+                        <div class="modal-body">
+                            <address>
+                                Multimedia Lab <br />
+                                Department of Information Engineering <br />
+                                The Chinese University of Hong Kong <br />
+                                Shatin, New Territories, Hong Kong SAR
+                            </address>
+
+                            <p>
+                                <i class="icon-play-circle"></i> Email:
+                                mmlab_contact at ie cuhk edu hk
+                            </p>
+                            <p>
+                                <i class="icon-play-circle"></i> Phone:
+                                (852) 3943-9485
+                            </p>
+                            <p>
+                                <i class="icon-play-circle"></i> Fax:
+                                (852) 2603-5032
+                            </p>
+
+                            <p>
+                                <br />
+                                <small>
+                                    <a href="http://www.cuhk.edu.hk/english/university/visitors.html">Getting to the
+                                        main campus</a> <br />
+                                    <a href="http://www.cuhk.edu.hk/english/campus/cuhk-campus-map.html">Campus map</a>
+                                </small>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </div> <!-- /tooltip-demo -->
+    </div> <!-- /container -->
+
+
+
+    <!-- Le javascript
+        ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!--<script type="text/javascript" src="./js/widgets.js"></script>-->
+    <script src="./js/jquery.js"></script>
+    <!--<script src="./js/prettify.js"></script>-->
+    <script src="./js/bootstrap-transition.js"></script>
+    <script src="./js/bootstrap-alert.js"></script>
+    <!--<script src="./js/bootstrap-dropdown.js"></script>-->
+    <script src="./js/bootstrap-scrollspy.js"></script>
+    <script src="./js/bootstrap-tab.js"></script>
+    <script src="./js/bootstrap-tooltip.js"></script>
+    <!--<script src="./js/bootstrap-popover.js"></script>-->
+    <!--<script src="./js/bootstrap-button.js"></script>-->
+    <!--<script src="./js/bootstrap-collapse.js"></script>-->
+    <!--<script src="./js/bootstrap-carousel.js"></script>-->
+    <!--<script src="./js/bootstrap-typeahead.js"></script>-->
+    <!--<script src="./js/bootstrap-affix.js"></script>-->
+    <!--<script src="./js/application.js"></script>-->
+    <script src="./js/bootstrap.min.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>
